@@ -1,0 +1,62 @@
+[
+  {
+    "directory": "C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2019b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=vector_group_mex -D__USE_MINGW_ANSI_STDIO=1   vector_group_data.c -o build/win64/vector_group_data.o",
+    "file": "vector_group_data.c",
+    "output": "build/win64/vector_group_data.o"
+  },
+  {
+    "directory": "C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2019b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=vector_group_mex -D__USE_MINGW_ANSI_STDIO=1   rt_nonfinite.c -o build/win64/rt_nonfinite.o",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.o"
+  },
+  {
+    "directory": "C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2019b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=vector_group_mex -D__USE_MINGW_ANSI_STDIO=1   vector_group_initialize.c -o build/win64/vector_group_initialize.o",
+    "file": "vector_group_initialize.c",
+    "output": "build/win64/vector_group_initialize.o"
+  },
+  {
+    "directory": "C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2019b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=vector_group_mex -D__USE_MINGW_ANSI_STDIO=1   vector_group_terminate.c -o build/win64/vector_group_terminate.o",
+    "file": "vector_group_terminate.c",
+    "output": "build/win64/vector_group_terminate.o"
+  },
+  {
+    "directory": "C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2019b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=vector_group_mex -D__USE_MINGW_ANSI_STDIO=1   vector_group.c -o build/win64/vector_group.o",
+    "file": "vector_group.c",
+    "output": "build/win64/vector_group.o"
+  },
+  {
+    "directory": "C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2019b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=vector_group_mex -D__USE_MINGW_ANSI_STDIO=1   interface/_coder_vector_group_api.c -o build/win64/_coder_vector_group_api.o",
+    "file": "interface/_coder_vector_group_api.c",
+    "output": "build/win64/_coder_vector_group_api.o"
+  },
+  {
+    "directory": "C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2019b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=vector_group_mex -D__USE_MINGW_ANSI_STDIO=1   interface/_coder_vector_group_mex.c -o build/win64/_coder_vector_group_mex.o",
+    "file": "interface/_coder_vector_group_mex.c",
+    "output": "build/win64/_coder_vector_group_mex.o"
+  },
+  {
+    "directory": "C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2019b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=vector_group_mex -D__USE_MINGW_ANSI_STDIO=1   vector_group_emxutil.c -o build/win64/vector_group_emxutil.o",
+    "file": "vector_group_emxutil.c",
+    "output": "build/win64/vector_group_emxutil.o"
+  },
+  {
+    "directory": "C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2019b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=vector_group_mex -D__USE_MINGW_ANSI_STDIO=1   interface/_coder_vector_group_info.c -o build/win64/_coder_vector_group_info.o",
+    "file": "interface/_coder_vector_group_info.c",
+    "output": "build/win64/_coder_vector_group_info.o"
+  },
+  {
+    "directory": "C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2019b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\" -I \"C:\\Users\\Tobias\\Nextcloud\\Projekte\\Community Integration Algorithms\\Simulations\\codegen\\mex\\vector_group\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=vector_group_mex -D__USE_MINGW_ANSI_STDIO=1   \"C:/Program Files/MATLAB/R2021b/extern/version/c_mexapi_version.c\" -o build/win64/c_mexapi_version.o",
+    "file": "C:/Program Files/MATLAB/R2021b/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.o"
+  }
+]

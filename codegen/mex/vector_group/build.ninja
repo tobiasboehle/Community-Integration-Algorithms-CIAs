@@ -1,0 +1,51 @@
+# CompilerName=mingw64
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root/build/win64
+matlabdir = C:/Program Files/MATLAB/R2021b
+startdir = C:/Users/Tobias/Nextcloud/Projekte/Community Integration Algorithms/Simulations
+
+# Toolchain information
+cc = C:\ProgramData\MATLAB\SupportPackages\R2019b\3P.instrset\mingw_w64.instrset\bin\gcc
+cxx = C:\ProgramData\MATLAB\SupportPackages\R2019b\3P.instrset\mingw_w64.instrset\bin\g++
+linker = C:\ProgramData\MATLAB\SupportPackages\R2019b\3P.instrset\mingw_w64.instrset\bin\gcc
+linkerxx = C:\ProgramData\MATLAB\SupportPackages\R2019b\3P.instrset\mingw_w64.instrset\bin\g++
+
+cflags =  -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I "C:\Users\Tobias\Nextcloud\Projekte\Community Integration Algorithms\Simulations\codegen\mex\vector_group" -I "C:\Users\Tobias\Nextcloud\Projekte\Community Integration Algorithms\Simulations" -I "C:\Users\Tobias\Nextcloud\Projekte\Community Integration Algorithms\Simulations\codegen\mex\vector_group\interface" -I "C:\Program Files\MATLAB\R2021b\extern\include" -I "." -DMODEL=vector_group_mex -D__USE_MINGW_ANSI_STDIO=1  
+
+cxxflags =  -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I "C:\Users\Tobias\Nextcloud\Projekte\Community Integration Algorithms\Simulations\codegen\mex\vector_group" -I "C:\Users\Tobias\Nextcloud\Projekte\Community Integration Algorithms\Simulations" -I "C:\Users\Tobias\Nextcloud\Projekte\Community Integration Algorithms\Simulations\codegen\mex\vector_group\interface" -I "C:\Program Files\MATLAB\R2021b\extern\include" -I "." -DMODEL=vector_group_mex -D__USE_MINGW_ANSI_STDIO=1  
+
+ldflags =  -m64 -Wl,--no-undefined -shared -static -L"C:\Program Files\MATLAB\R2021b\extern\lib\win64\mingw64" -llibmx -llibmex -llibmat -lm -llibmwlapack -llibmwblas -o "vector_group_mex.mexw64" -llibemlrt -llibcovrt -llibut -llibmwmathutil  -Wl,--version-script,vector_group_mex.map
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in -o $out
+
+rule cxx
+    command = $cxx $cxxflags $in -o $out
+
+rule link
+    command = $linker @$out.rsp $ldflags
+    rspfile = $out.rsp
+    rspfile_content = $in
+
+rule linkxx
+    command = $linkerxx $in $ldflags
+
+# Build
+build $builddir/vector_group_data.o : cc $root/vector_group_data.c
+build $builddir/rt_nonfinite.o : cc $root/rt_nonfinite.c
+build $builddir/vector_group_initialize.o : cc $root/vector_group_initialize.c
+build $builddir/vector_group_terminate.o : cc $root/vector_group_terminate.c
+build $builddir/vector_group.o : cc $root/vector_group.c
+build $builddir/_coder_vector_group_api.o : cc $root/interface/_coder_vector_group_api.c
+build $builddir/_coder_vector_group_mex.o : cc $root/interface/_coder_vector_group_mex.c
+build $builddir/vector_group_emxutil.o : cc $root/vector_group_emxutil.c
+build $builddir/_coder_vector_group_info.o : cc $root/interface/_coder_vector_group_info.c
+build $builddir/c_mexapi_version.o : cc $matlabdir/extern/version/c_mexapi_version.c
+
+# Link
+build $root\vector_group_mex.mexw64 : link $builddir/vector_group_data.o $builddir/rt_nonfinite.o $builddir/vector_group_initialize.o $builddir/vector_group_terminate.o $builddir/vector_group.o $builddir/_coder_vector_group_api.o $builddir/_coder_vector_group_mex.o $builddir/vector_group_emxutil.o $builddir/_coder_vector_group_info.o $builddir/c_mexapi_version.o 
